@@ -42,7 +42,6 @@ import com.VAMA.yahtzee.R
 fun  homepage(): Int{
     var state by rememberSaveable { mutableIntStateOf(1) }
 
-
     Box(modifier = Modifier
         .fillMaxSize()
         .background(brush = Brush.linearGradient(colors = listOf(Color.DarkGray, Color.LightGray))),
@@ -75,8 +74,6 @@ fun  homepage(): Int{
             },
             modifier = Modifier.fillMaxSize()
         )
-
-
 
         Box(modifier = Modifier.fillMaxWidth().align(Alignment.TopCenter).padding(horizontal = 30.dp, vertical = 40.dp)) {
 
