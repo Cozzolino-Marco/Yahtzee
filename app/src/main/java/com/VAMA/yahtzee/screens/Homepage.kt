@@ -91,7 +91,6 @@ fun  homepage(): Int{
 
                     )
 
-
             }
 
 
@@ -100,6 +99,7 @@ fun  homepage(): Int{
                     painter = painterResource(id = R.drawable.yahtzee),
                     contentDescription = "Game title",
                     modifier = Modifier.size(350.dp)
+
 
                 )
             }
